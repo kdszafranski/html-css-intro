@@ -1,0 +1,51 @@
+/* Draws a border around every individual element */
+* {
+  border: 1px solid purple;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+}
+
+#ex-link {
+  width: 300px;
+  text-decoration: none;
+}
+
+#ex-link:hover {
+  text-decoration: underline;
+}
+
+ul, li {
+  border: 1px solid black;
+}
+
+h1 {
+  color: peachpuff;
+}
+
+h1:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+ul li:last-child {
+  background-color: yellow;
+}
+
+li.really-important {
+  background-color: #ccc;
+  font-family: Times;
+}
+
+#this-is-the-one {
+  font-weight: bold;
+}
+
+.example {
+  background-color: red;
+
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
